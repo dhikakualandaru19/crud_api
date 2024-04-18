@@ -23,7 +23,6 @@ fastify.get('/buku/:judul', async (request, reply) => {
 
  const result = await db.query(query, values);
  return result;
-  
 });
 
 //update buku
